@@ -1,0 +1,6 @@
+export { default as HomePage } from "./HomePage"
+export { default as TopRatedPage } from "./TopRatedPage"
+export { default as TvShowPage } from "./TvShowPage"
+export { default as SearchPage } from "./SearchPage"
+export { default as SignInPage } from "./SignInPage"
+export { default as FavouritePage } from "./FavouritePage"
