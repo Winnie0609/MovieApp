@@ -8,8 +8,8 @@ import "../src/style/index.css"
 function App() {
   return (
     <GlobalProvider>
-      {/* <Router basename="/movie-app"> */}
-      <Router>
+      <Router basename="/MovieApp">
+      {/* <Router> */}
         <Switch>
           <Route exact path="/">
             <HomePage/>

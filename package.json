@@ -2,7 +2,7 @@
   "name": "newmovie-en",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://winnie0609.github.io/MovieApp",
+  "homepage": "https://Winnie0609.github.io/MovieApp",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/lab": "*",
