@@ -1,0 +1,25 @@
+// @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@300;400;600;800&display=swap');
+
+$font-stack-special: 'Encode Sans', sans-serif;
+$font-stack:          Roboto, sans-serif;    
+$primary-color:       #BA0D3E;
+$secondary-color:     #FDF7F9;
+$grey-color:          #A5A4AB;  
+
+@use "sidebar";
+@use "homePage";
+@use "footer";
+@use "favouriteList";
+@use "popularPage";
+@use "trendingPage";
+
+body {
+  font: 100% $font-stack;
+  color: black;
+  margin: 0;
+  padding: 0;
+  min-width: 400px;
+}
+
+
+

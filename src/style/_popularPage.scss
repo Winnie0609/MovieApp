@@ -1,0 +1,16 @@
+$font-stack-special: 'Encode Sans', sans-serif;
+$font-stack:          Roboto, sans-serif;    
+$primary-color:      #BA0D3E;
+$secondary-color:    #FDF7F9;
+$third-color:        #F2CFDA;
+$grey-color:         #787682;  
+
+@import "screenSize";
+
+.popular-page {
+    .see-more {
+        display: none;
+    }
+
+
+}

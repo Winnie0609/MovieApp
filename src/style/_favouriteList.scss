@@ -1,0 +1,103 @@
+$font-stack-special: 'Encode Sans', sans-serif;
+$font-stack:          Roboto, sans-serif;    
+$primary-color:      #BA0D3E;
+$secondary-color:    #FDF7F9;
+$third-color:        #F2CFDA;
+$grey-color:         #787682;  
+
+@import "screenSize";
+
+//--------------------------------
+// side space, title and go back button
+//--------------------------------
+.favourite-page .page-list-title-front,
+.popular-page .page-list-title-front, 
+.search-page .page-list-title-front,
+.top-rated-page .page-list-title-front,
+.person-page .page-list-title-front,
+.trending-tv-page .page-list-title-front,
+.trending-movie-page .page-list-title-front {
+
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    flex-grow: 2;
+    margin: 2rem 0;
+    font-family: $font-stack-special;
+
+    .page-title {
+        font-size: 1.5rem;
+        font-weight: 400;
+        flex-grow: .1;
+        margin:0;
+    }
+
+    button {
+        font-family : inherit;
+        font-size: .9rem;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        width: 5rem;
+    }
+
+    button[text] {
+        font-family: $font-stack-special;
+    }
+
+    button:hover {
+        color: $primary-color;
+        font-weight: 700;
+    }
+
+    .active {
+        color: $primary-color;
+        font-weight: 700;
+    }
+
+    .all-btn {
+        width: 3rem;
+    }
+}
+
+
+.go-back-btn {
+    font-family : inherit;
+    font-size: .9rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+    i {
+        margin-right: 10px;
+    }
+}
+
+.go-back-btn:hover {
+    color: $primary-color;
+    // background-color: $primary-color;
+    // background-color: $secondary-color;
+}
+
+//--------------------------------
+// favourite list
+//--------------------------------
+
+.favourite-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    row-gap: 3rem;
+
+}
+
+.favourite-list-item {
+    width: 100%;
+    display: flex;
+
+    img {
+        width: 9rem;
+        height: 13.5rem;
+        object-fit: cover;
+    }
+}

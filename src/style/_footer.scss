@@ -1,0 +1,157 @@
+$font-stack-special: 'Encode Sans', sans-serif;
+$font-stack:          Roboto, sans-serif;    
+$primary-color:      #BA0D3E;
+$secondary-color:    #FDF7F9;
+$third-color:        #F2CFDA;
+$grey-color:         #787682;  
+
+@import "screenSize";
+
+footer{
+    font-family: $font-stack-special;
+    // height: 6rem;
+    margin: 0 0 0 220px;
+    // padding: 3.5rem 15rem;
+    padding: 4.5rem 0 2rem 0;
+    background-color: $secondary-color;
+    text-align: center;
+
+    p {
+        font-size: .1em;
+        margin-top: 3rem;
+      
+        
+    }
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.grid {
+    font-family: $font-stack-special;
+    font-size: .8rem;
+    display: flex;
+    // height: 5rem;
+    min-width: 10rem;
+    // flex-wrap: wrap;
+ 
+    .footer-head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 16rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000000;
+        cursor: pointer;
+        font-weight: 500;
+    }
+
+    a:hover {
+      color: $primary-color; 
+    }
+
+    .column {
+        min-width: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .footer-info {
+        display: flex;
+        justify-content: space-around;
+        // flex-wrap: wrap;
+    }
+
+    .one {
+            display: flex;
+            align-items: center;
+            min-width: 16rem;
+        }
+}
+
+.social-icon{
+    font-size: 1rem;
+    margin: .5em 0 0 0;
+    display: flex;
+    
+}
+
+.fa-google,
+.fa-facebook-f,
+.fa-twitter {
+    color: $primary-color;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.fa-google {
+    margin: 0 .3em 0 0;
+    padding: .3em;
+}
+
+.fa-facebook-f {
+    margin: 0 .3em;
+    padding: .31em .5em;
+}
+
+.fa-twitter {
+    margin: 0 .3em;
+    padding: .3em;
+}
+
+.fa-google:hover,
+.fa-facebook-f:hover,
+.fa-twitter:hover {
+    background-color: $primary-color;
+    color: #fff;
+    border: 1px solid $primary-color;
+}
+
+
+@include md {
+    footer {
+        margin-left: 0;
+        // height: 20rem;
+        // padding: 0;
+    }
+    
+    .grid {
+        flex-direction: column;
+        // align-items: center;
+    }
+
+    .footer-info {
+        margin-top: 1rem;
+    }
+
+    .column {
+        align-items: center;        
+    }
+}
+
+@include lg {
+    footer {
+        .grid {
+            align-items: center;
+        }
+
+        .footer-info {
+            flex-direction: column;
+            text-align: left;
+        }
+
+        .column {
+            margin: .3rem;
+
+        }
+    }
+}

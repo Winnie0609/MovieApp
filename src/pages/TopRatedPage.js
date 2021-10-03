@@ -1,11 +1,12 @@
 import React from 'react'
-import { Header, TopRatedMovie } from "../components/allComponent"
+import { Header, TopRatedMovie, Footer } from "../components/allComponent"
 
 function TopRatedPage() {
     return(
         <>
             <Header />
             <TopRatedMovie/>
+            <Footer/>
         </>
     )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, FavouriteList } from "../components/allComponent"
+import { Header, FavouriteList, Footer } from "../components/allComponent"
 
 
 function FavouritePage() {
@@ -7,6 +7,7 @@ function FavouritePage() {
         <>
             <Header />
             <FavouriteList />
+            <Footer />
         </>
     )
 }
