@@ -21,5 +21,53 @@ body {
   min-width: 400px;
 }
 
+.columns {
+  .is-12 {
+    width: 10%;
+  }
 
+  .is-11 {
+    width: 11%
+  }
+
+  .is-10 {
+    width: 12%;
+  }
+
+  .is-9 {
+    width: 13%;
+  }
+  
+  .is-8 {
+    width: 13%;
+  }
+
+  .is-7 {
+    width: 13%;
+  }
+
+  .is-6 {
+    width: 13%;
+  }
+
+  .is-5 {
+    width: 25%;
+  }
+
+  .is-4 {
+    width: 30%;
+  }
+
+  .is-3 {
+    width: 40%;
+  }
+
+  .is-2 {
+    width: 50%;
+  }
+
+  .is-1 {
+    width: 100%;
+  }
+}
 

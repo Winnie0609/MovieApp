@@ -821,4 +821,41 @@ body {
   min-width: 400px;
 }
 
+.columns .is-12 {
+  width: 10%;
+}
+.columns .is-11 {
+  width: 11%;
+}
+.columns .is-10 {
+  width: 12%;
+}
+.columns .is-9 {
+  width: 13%;
+}
+.columns .is-8 {
+  width: 13%;
+}
+.columns .is-7 {
+  width: 13%;
+}
+.columns .is-6 {
+  width: 13%;
+}
+.columns .is-5 {
+  width: 25%;
+}
+.columns .is-4 {
+  width: 30%;
+}
+.columns .is-3 {
+  width: 40%;
+}
+.columns .is-2 {
+  width: 50%;
+}
+.columns .is-1 {
+  width: 100%;
+}
+
 /*# sourceMappingURL=index.css.map */
